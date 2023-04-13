@@ -6,3 +6,7 @@ test3.py - Meriam Kraige Engineering Mechanics Dynamics 6 th edition - Sample Pr
 
 test4.py - Meriam Kraige Engineering Mechanics Dynamics 6 th edition - Sample Problem 7/3 - Alternative method
             Different answer but same vA/B
+            
+xxx.py - Meriam Kraige Engineering Mechanics Dynamics 6th edition 7/47 - Satellite solar panel - Method 1
+
+xxx1.py - Meriam Kraige Engineering Mechanics Dynamics 6th edition 7/47 - Satellite solar panel - Method 2
