@@ -7,6 +7,7 @@ youtube link :- https://www.youtube.com/watch?v=P-AgGNBjNeM&t=1504s
 
 test4.py - Meriam Kraige Engineering Mechanics Dynamics 6 th edition - Sample Problem 7/3 - Alternative method
             Different answer for angular velocity but same vA/B
+            youtube linl :- https://youtu.be/AIREeJSQNyc
             
 test4.pdf - test4.py explanations and calculations
             
