@@ -6,7 +6,7 @@ test3.py - Meriam Kraige Engineering Mechanics Dynamics 6 th edition - Sample Pr
 youtube link :- https://www.youtube.com/watch?v=P-AgGNBjNeM&t=1504s
 
 test4.py - Meriam Kraige Engineering Mechanics Dynamics 6 th edition - Sample Problem 7/3 - Alternative method
-            Different answer but same vA/B
+            Different answer for angular velocity but same vA/B
             
 xxx.py - Meriam Kraige Engineering Mechanics Dynamics 6th edition 7/47 - Satellite solar panel - Method 1
 
