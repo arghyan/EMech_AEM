@@ -1,18 +1,19 @@
 #Meriam Kraige 6th edition Sample problem 7/3
 from sympy.physics.mechanics import *
 from sympy import symbols, solve 
-from math import atan, degrees, radians, sqrt, sin, cos
+from math import atan, degrees, radians, sqrt, sin, cos, pi
 
 psi_d,theta_d,omega_2=symbols('psi_d,theta_d,omega_2')
 
 N=ReferenceFrame('N')
 psi=atan(50/100)
+psi=pi-psi
 theta=atan(100/sqrt(50**2+100**2))
 
 O=Point('O')
 O.set_vel(N,0*N.x)
-N1=N.orientnew('N1','Axis',[-psi,N.z])
-N1.set_ang_vel(N,-psi_d*N.z)
+N1=N.orientnew('N1','Axis',[psi,N.z])
+N1.set_ang_vel(N,psi_d*N.z)
 N2=N1.orientnew('N2','Axis',[theta,N1.x])
 N2.set_ang_vel(N1,theta_d*N1.x)
 B=O.locatenew('B',0*N.x)
