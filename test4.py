@@ -6,9 +6,9 @@ from math import atan, degrees, radians, sqrt, sin, cos, pi
 psi_d,theta_d,omega_2=symbols('psi_d,theta_d,omega_2')
 
 N=ReferenceFrame('N')
-psi=atan(50/100)
-psi=pi-psi
-theta=atan(100/sqrt(50**2+100**2))
+alpha=atan(50/100)
+psi=pi-alpha
+theta=atan(sqrt(50**2+100**2)/100)
 
 O=Point('O')
 O.set_vel(N,0*N.x)
@@ -28,3 +28,4 @@ sol=solve([eqn1,eqn2,eqn3],psi_d,theta_d,omega_2)
 angvel=N2.ang_vel_in(N).simplify().express(N)
 angvel=angvel.subs({psi_d:sol[psi_d],theta_d:sol[theta_d]})
 
+ans_meriam=(angvel-N2.z*dot(angvel,N2.z)).express(N)
