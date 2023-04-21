@@ -14,3 +14,6 @@ test4.pdf - test4.py explanations and calculations
 xxx.py - Meriam Kraige Engineering Mechanics Dynamics 6th edition 7/47 - Satellite solar panel - Method 1
 
 xxx1.py - Meriam Kraige Engineering Mechanics Dynamics 6th edition 7/47 - Satellite solar panel - Method 2
+
+test5a - Meriam Kraige Engineering Mechanics Dynamics 6th edition 7/48 - Method 1
+test5b - Meriam Kraige Engineering Mechanics Dynamics 6th edition 7/48 - Method 1
